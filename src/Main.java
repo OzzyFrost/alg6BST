@@ -26,9 +26,11 @@ public class Main {
             System.out.print(" size "+bsts[i].size());
             System.out.println(" balance "+bsts[i].isBalance());
             if (bsts[i].isBalance()){numBalance++;}
+
         }
 
         System.out.println("balanced "+ numBalance+ " of 20 is "+ numBalance*5+"%");
+        System.out.println("no balanced "+ (100-numBalance*5)+"%");
     }
 
 }
